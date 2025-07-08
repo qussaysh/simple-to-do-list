@@ -1,0 +1,78 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background : rgb(30, 0, 77) ;
+  font-family: 'Tajawal',sans-serif;
+  
+}
+.tajawal-extralight {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tajawal-light {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tajawal-regular {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tajawal-medium {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tajawal-bold {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tajawal-extrabold {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tajawal-black {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.tasks-table {
+  background-color: rgb(252, 254, 255);
+  width: 60%;
+  
+  margin-top: 80px;
+}
+
+button{
+  border: none;
+  font-size: 20px;
+  box-shadow: 0px 3px 5px rgb(207, 207, 207);
+}
+
+button.circular-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% ;
+  margin: 8px;
+  line-height: 0;
+  
+}
+.task {
+  border: solid 2px black;
+}
+.task:hover{
+  box-shadow: 0px 2px 15px rgba(97, 97, 97 , 0.843);
+  transition: box-shadow 0.2s;
+}
